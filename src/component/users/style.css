@@ -1,0 +1,72 @@
+.card__user {
+    background: #fff;
+    height: 250px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 5px;
+    flex-basis: 400px;
+    position: relative;
+    top: 50px;
+    flex-grow: 4;
+    box-shadow: 0 0 1px 1px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1);
+    align-items: stretch;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+.card__user:hover {
+    box-shadow: 0 0 20px 5px rgba(20, 23, 28, .1), 0 8px 5px 0 rgba(20, 23, 28, .1);
+
+}
+
+.info__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: justify;
+    padding: 10px;
+}
+
+.img__avatar {
+    border-radius: 50%;
+    height: 50px;
+    height: 50px;
+    background: pink;
+    padding: 12px;
+}
+
+
+
+.footer__info {
+    /* background: lightblue; */
+}
+
+p {
+    color: #a7a7a7;
+}
+
+.name__user {
+    color: rgb(59, 59, 235);
+    font-weight: 900;
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 4px;
+}
+
+.body__info {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.footer__info {
+    position: relative;
+    top: 20px;
+}
+
+.active__class {
+    border-bottom: 2px solid white;
+}

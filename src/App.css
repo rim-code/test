@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.top {
+  height: 50px;
+  width: 100%;
+  background: rgb(243, 39, 39);
+  position: fixed;
+  top: 0;
+  z-index: 500;
+}
+
+.nav__bar {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 950px;
+}
+
+li {
+  list-style: none;
+  flex-basis: 200px;
+  flex-grow: 4;
+  margin-left: 20px;
+  color: white;
+
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  top: 13px;
+  outline: none;
+}
+
+.search {
+  margin-left: 30%;
+  margin-top: 10px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 20px;
+  outline: none;
+}
