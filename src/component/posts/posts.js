@@ -236,7 +236,7 @@ class Posts extends Component {
                         <TextField
                             id="name"
                             required
-                            label="Name"
+                            label="Title"
                             className="add-stockholder-textField md-cell md-cell--6"
                             name='title'
                             value={title}
@@ -246,7 +246,7 @@ class Posts extends Component {
                         <TextField
                             id="name"
                             required
-                            label="Name"
+                            label="Body"
                             className="add-stockholder-textField md-cell md-cell--6"
                             rows={5}
                             name='body'
@@ -272,7 +272,7 @@ class Posts extends Component {
                         <TextField
                             id="name"
                             required
-                            label="Name"
+                            label="Title"
                             className="add-stockholder-textField md-cell md-cell--6"
                             name='title'
                             value={title || (object && object.title)}
@@ -282,7 +282,7 @@ class Posts extends Component {
                         <TextField
                             id="name"
                             required
-                            label="Name"
+                            label="Body"
                             className="add-stockholder-textField md-cell md-cell--6"
                             rows={5}
                             name='body'
